@@ -62,7 +62,7 @@ module.exports = {
       {
         test: /\.jsx?$|\.es6$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'babel-loader'
       }, {
         test: /\.css$/,
         exclude: /node_modules/,
