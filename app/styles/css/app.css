@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Lora';
+
+  /* These can be loaded thanks to the url-loader */
+  src: url('../../fonts/ttf/Lora-Regular.ttf');
+  src: url('../../fonts/ttf/Lora-Italic.ttf');
+  src: url('../../fonts/ttf/Lora-Bold.ttf');
+  src: url('../../fonts/ttf/Lora-Bold.ttf');
+  src: url('../../fonts/ttf/Lora-BoldItalic.ttf');
+}
+
+body {
+  font-family: 'Lora, Helvetica, Arial';
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 3rem;
+}
